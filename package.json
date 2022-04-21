@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "yarn development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "yarn production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@types/lodash.foreach": "^4.5.7",
+        "@types/three": "^0.139.0",
+        "@types/uuid": "^8.3.4",
+        "autoprefixer": "^10.4.4",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "laravel-mix-purgecss": "^6.0.0",
+        "lodash": "^4.17.19",
+        "postcss": "^8.4.12",
+        "prettier": "2.6.2",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.50.1",
+        "sass-loader": "^12.6.0",
+        "tailwindcss": "^3.0.24",
+        "ts-loader": "^9.2.8",
+        "typescript": "^4.6.3",
+        "vue-loader": "^17.0.0"
+    },
+    "dependencies": {
+        "@heroicons/vue": "^1.0.6",
+        "lodash.foreach": "^4.5.0",
+        "three": "^0.139.2",
+        "troisjs": "^0.3.4",
+        "uuid": "^8.3.2",
+        "vue": "^3.2.31"
+    }
+}
